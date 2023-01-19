@@ -1,7 +1,5 @@
-const fs = require('fs');
+import fs from 'fs';
 import inquirer from 'inquirer';
-const generatePage = require('./src/page-template');
-
 const promptUser = () => {
   return inquirer.prompt([
     {

@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-generator",
+  "version": "1.0.0",
+  "description": "- As a web developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edm1001/portfolio-generator.git"
+  },
+  "author": "Edmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edm1001/portfolio-generator/issues"
+  },
+  "homepage": "https://github.com/edm1001/portfolio-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "moment": "^2.29.4"
+  }
+}

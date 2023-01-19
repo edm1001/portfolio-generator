@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/edm1001/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.4",
+    "inquirer": "^7.3.3",
     "moment": "^2.29.4"
   }
 }

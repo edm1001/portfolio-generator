@@ -128,6 +128,12 @@ promptUser()
   .then(promptProject)
   .then(portfolioData => {
     console.log(portfolioData);
+
+
+
+
+
+    
     // will be uncommented in lesson 4
     // const pageHTML = generatePage(portfolioData);
     // fs.writeFile('./index.html', pageHTML, err => {

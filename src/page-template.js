@@ -24,7 +24,7 @@ const generateProjects = projectsArr => {
             <h3 class="portfolio-item-title text-light">${name}</h3>
             <h5 class="portfolio-languages">
               Built With:
-              ${languages.join(', ')}
+              ${languages.map(language => language).join(', ')}
             </h5>
             <p>${description}</p>
             <a href="${link}" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
@@ -58,6 +58,7 @@ const generateProjects = projectsArr => {
 module.exports = templateData => {
  const {projects, about, ...header} = templateData
     return `
+    
     <!DOCTYPE html>
     <html lang="en">
   
